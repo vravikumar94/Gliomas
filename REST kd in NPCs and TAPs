@@ -6,3 +6,34 @@ decreased percentage of cells in S-phase, incresed cells in G0/G1 phase.
 REST is required to maintain both quiscent and proliferation states to prevent premature differentiation into neurons. 
 identification of REST target genes in HCN cells expected to define new REST targets important in regulating adult NSC pool.
 
+FGF-2 treatment - TAP conditions
+BMP-4 - iQNP conditions 
+BMP-mediated quiscence is a reversible state.
+
+iQNP conditions + REST kd --> expression profile in TAP conditions.
+TAPs + REST kd --> not cluster with iQNP/TAP conditions --> loss of REST in TAPs turning on a differentiation program.
+Stains for neuronal marker Tuj1.
+
+Overlay RNA-seq in control vs REST kd expt with ChIP-seq data -->identify REST dependent direct targets.
+79 unique iQNP targets, 19 unique TAP targets, 44 common targets. 
+REST binding sites annotated to +/- 10kb of gene TSS --> RST efficiently binds neuronal genes in HCN cells in iQNP and TAP conditions and represses them.
+
+I will also annotate enhancer peaks, instead of using +/-10kb.
+
+REST binding : differential binding; motif variations; enrichment of other TF motifs
+GFX and MAF-A motifs in unique iQNP targets; MAF-A, DUX, GLI3 and MECOM motifs in unique TAP targets.
+
+PANTHER - enrichment analysis
+iQNP targets related to ribosome biogenesis, translation and cell cycle -> gene networks controlling the quiscent state.
+
+ChIP-seq - reads mapped to rat rn4 genome using Bowtie2.
+peak calling using HOMER.
+RNA-seq - Tophat2; Cufflinks and Cuffdiff to estimate FPKM and determine significant DE.
+
+REST controls the transition of QNPs to acctivated QNPs and TAPs in vivo by repressing ribosome biogenesis and cell cycle genes.
+
+//most upregulated GO BP is related to ribosome assembly, rRNA processing etc.
+
+REST has a context-dependent role to maintain quiscence in QNPs and proliferation in TAPs, to prevent premature differentiation into adult neurons. 
+
+HOMER identified 1775 and 778 REST peaks overlapping between multiple REST antibodies against C-terminal of REST in iQNP and TAP conditions.
